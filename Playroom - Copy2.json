@@ -1,0 +1,1363 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 242,
+    "major": 5,
+    "minor": 5,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": true,
+    "projectUuid": "6d22aafa-822e-4b4f-a979-75f254612534",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "Playroom - Copy2",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "Tileset3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tileset3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "web5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "web5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "web6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "web6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "HAND STAIN pixel3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HAND STAIN pixel3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "PIANO_pixel-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PIANO_pixel-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "h.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "h.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "E pixel (2)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "E pixel (2)2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "l.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "l.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "p.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "p.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "BLOOD_pixel__1_-removebg-preview4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BLOOD_pixel__1_-removebg-preview4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel__2_-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel__2_-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel (3).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel__5_-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel__5_-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel__6_-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel__6_-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel (7).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel (7).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel__7_-removebg-preview2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel__7_-removebg-preview2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel (8).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel (8).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rocking chair.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rocking chair.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Note A.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Note A.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Note A2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Note A2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "music box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "music box.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "opened music box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "opened music box.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Note A3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Note A3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Note B.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Note B.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Note B2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Note B2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Note C.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Note C.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Note D.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Note D.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Note A4.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Note A4.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Note B3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Note B3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Note C2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Note C2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Note D2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Note D2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "opened_music_box-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "opened_music_box-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "opened music box2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "opened music box2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "opened music box3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "opened music box3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Full Note.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Full Note.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Full Note2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Full Note2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "note-a_dCCeX2Xr.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "note-a_dCCeX2Xr.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "note-a_dCCeX2Xr2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "note-a_dCCeX2Xr2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Full Note3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Full Note3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Full Note4.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Full Note4.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Full Note5.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Full Note5.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Full Note.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Full Note.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "spooky-wizard-laugh-01-253266.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "spooky-wizard-laugh-01-253266.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "darkness.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "darkness.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "darkness2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "darkness2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "darkness3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "darkness3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "spooky-wizard-laugh-01-253265.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "spooky-wizard-laugh-01-253265.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "spooky-wizard-laugh-01-253264.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "spooky-wizard-laugh-01-253264.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "vill 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vill 1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "jumpscare-94984.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "jumpscare-94984.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Note A5.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Note A5.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Note B4.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Note B4.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Note C3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Note C3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Note D3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Note D3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "vill 21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vill 21.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "vill 41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vill 41.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "dialog box.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "dialog box.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi 21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi 21.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi22.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "cat 23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cat 23.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel (1)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel (1)2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel__1_-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel__1_-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 31.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 36.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 32.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 34.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 35.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi37.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 37.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 38.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi32.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 33.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi33.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi34.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi39.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi35.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi38.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi36.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi40.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi41.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi42.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi43.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi44.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi45.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi46.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi23.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi 22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi 22.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi24.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi25.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi 23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi 23.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi 24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi 24.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi 25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi 25.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi 26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi 26.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi 27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi 27.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi 28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi 28.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi47.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi47.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi48.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi49.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi49.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi50.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi51.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi51.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi52.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi53.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi54.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi54.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 13.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 14.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 15.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 16.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 17.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 18.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 41.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 42.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 43.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 44.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 45.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 46.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 47.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 47.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 48.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi55.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi55.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "dot-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dot-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Game.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime 3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime 1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime 2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime 4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime 5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime 6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime 7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime 7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime 8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime 8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "scary-horror-music-351315.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "scary-horror-music-351315.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "HowToDoBox.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HowToDoBox.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "HowToDoBox-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HowToDoBox-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Instruction.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Instruction.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Instruction2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Instruction2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Restart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Restart.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Next.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Next.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Close.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Close.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "H pixel (1)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "H pixel (1)2.png",
+        "smoothed": false,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "PlayerScore",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "CurrentRiddleText",
+      "type": "string",
+      "value": "\" \""
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/playroom"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scoreboard"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/gameover"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/next-puzzle"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/main-menu"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": []
+}
