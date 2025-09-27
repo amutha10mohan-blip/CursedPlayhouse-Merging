@@ -1,0 +1,3041 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 242,
+    "major": 5,
+    "minor": 5,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": true,
+    "projectUuid": "3e7b1877-6da7-44c3-96fd-59a4e8c539f6",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "templateSlug": "starting-platformer-pixel",
+    "version": "1.0.0",
+    "name": "puzzle 2 updated FINAL - Copy ",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [
+      "iErvJblK5MhbzniuBx3v00UhBkj2"
+    ],
+    "authorUsernames": [
+      "Leghasre_03"
+    ],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/Top arrow button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Top arrow button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/e3943e1b23ceb90f00fc5e7c0481c5147b983fdc5397fb3690e102e53ce72d4f_Top arrow button.png",
+          "name": "Top arrow button.png"
+        }
+      },
+      {
+        "file": "assets/Flat dark joystick border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat dark joystick border.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/1db606cabd7372d1494ba5934bc25bcdd72f5a213c4a27509be57c3f4d5aecca_Flat dark joystick border.png",
+          "name": "Flat dark joystick border.png"
+        }
+      },
+      {
+        "file": "assets/Flat dark joystick thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat dark joystick thumb.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/10167ade22c4a6b48324e6c1d1bd6dc74179d7bed0775890903f418b4a05c8a1_Flat dark joystick thumb.png",
+          "name": "Flat dark joystick thumb.png"
+        }
+      },
+      {
+        "file": "assets/PickupCoin.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Jump 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.05,\\\"sustainPunch\\\":20,\\\"decay\\\":0.3,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":400,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":15,\\\"frequencyJump1Amount\\\":25,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"whistle\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":85,\\\"squareDutySweep\\\":35,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"PickupCoin\"},\"localFilePath\":\"assets/PickupCoin.wav\"}",
+        "name": "PickupCoin",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/StartingPixelPlayer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\StartingPixelPlayer.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/PixelBackground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\PixelBackground.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/StartingPixelGround.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\StartingPixelGround.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/StartingPixelCoin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\StartingPixelCoin.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "floors walls and stairs.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "floors walls and stairs.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tiles.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tiles.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "floors walls and stairs2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "floors walls and stairs2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "door closed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "door closed.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "door open .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "door open .png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "door closed2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "door closed2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "door closed3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "door closed3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "door open1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "door open1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "door open2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "door open2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Cat2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat2.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Talking tom2.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Talking tom2.webp",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "sofa_set_1-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sofa_set_1-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "fireplace.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fireplace.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rotary phone.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rotary phone.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "television.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "television.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "spider  web.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spider  web.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "spider__web-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spider__web-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rugs_and_sheets-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rugs_and_sheets-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "WhatsApp_Image_2025-09-07_at_21.04.20__1_-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WhatsApp_Image_2025-09-07_at_21.04.20__1_-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "WhatsApp Image 2025-09-07 at 21.04.20 (1).jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "WhatsApp Image 2025-09-07 at 21.04.20 (1).jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "WhatsApp_Image_2025-09-07_at_21.04.21-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WhatsApp_Image_2025-09-07_at_21.04.21-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "WhatsApp Image 2025-09-07 at 21.04.21.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "WhatsApp Image 2025-09-07 at 21.04.21.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "WhatsApp_Image_2025-09-07_at_21.04.21-removebg-preview2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WhatsApp_Image_2025-09-07_at_21.04.21-removebg-preview2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "windows-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windows-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "table_-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "table_-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "sofa_set_4-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sofa_set_4-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "sofa_set_3-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sofa_set_3-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "sofa_set_2-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sofa_set_2-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "sofa_set_1-removebg-preview (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sofa_set_1-removebg-preview (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lamps-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lamps-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "WhatsApp_Image_2025-09-07_at_21.59.03-removebg-preview (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WhatsApp_Image_2025-09-07_at_21.59.03-removebg-preview (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "creepy_doll_template.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "creepy_doll_template.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "vecteezy_vintage-pixel-art-deck-chair-illustration-retro-style-beach_60747967-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vecteezy_vintage-pixel-art-deck-chair-illustration-retro-style-beach_60747967-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lamps-removebg-preview2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lamps-removebg-preview2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bookshelf_latest-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bookshelf_latest-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pexels-dorran-737683-1643280 (1).jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "pexels-dorran-737683-1643280 (1).jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "mirror for living room .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mirror for living room .png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "flower for table.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "flower for table.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "flower_for_table-removebg-preview (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "flower_for_table-removebg-preview (2).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "sofa_set_2-removebg-preview (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sofa_set_2-removebg-preview (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "mirror_for_living_room_-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mirror_for_living_room_-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "tv_with_cabinet-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tv_with_cabinet-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "living_room_door-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "living_room_door-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "living_room_door-removebg-preview (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "living_room_door-removebg-preview (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel ghost-1.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel ghost-1.png.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "vecteezy_ai-generated-ghoulish-face-isolated-on-transparent-background_36581822.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vecteezy_ai-generated-ghoulish-face-isolated-on-transparent-background_36581822.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Talking tom.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Talking tom.png\",\"extension\":\".png\"}",
+        "name": "Talking tom.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Talking tom2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Talking tom2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "ghost.svg",
+        "kind": "image",
+        "metadata": "",
+        "name": "ghost.svg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel_ghost-1.png-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel_ghost-1.png-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel ghost-1.png2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel ghost-1.png2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel ghost-1.png3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel ghost-1.png3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel ghost-1.png4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel ghost-1.png4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel ghost-1.png5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel ghost-1.png5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel ghost right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel ghost right.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel ghost right2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel ghost right2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel ghost right3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel ghost right3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel ghost down.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel ghost down.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel ghost down2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel ghost down2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel ghost down3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel ghost down3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel ghost up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel ghost up.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel ghost up2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel ghost up2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel ghost up3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel ghost up3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled_design-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled_design-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "istockphoto-1250314203-1024x1024__1_-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "istockphoto-1250314203-1024x1024__1_-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "istockphoto-1250314203-1024x1024__1_-removebg-preview2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "istockphoto-1250314203-1024x1024__1_-removebg-preview2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chests_16x16_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chests_16x16_0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Wooden Chest 1 - frame  00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wooden Chest 1 - frame  00.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Wooden Chest 1 - frame  01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wooden Chest 1 - frame  01.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Wooden Chest 1 - frame  02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wooden Chest 1 - frame  02.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Wooden Chest 1 - frame  04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wooden Chest 1 - frame  04.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Top arrow round button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Top arrow round button.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Light/232c34777fabd651a4f908d5d437e7ba1ed8f6afffec0af4029c667c1835bdd7_Top arrow round button.png",
+          "name": "Top arrow round button.png"
+        }
+      },
+      {
+        "file": "assets/Bottom arrow round button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bottom arrow round button.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Shaded Light/ea3d8f25a9db1e3fe9a00fa67e5758746f2cbaa08fc7e6742f28ac195e9510cf_Bottom arrow round button.png",
+          "name": "Bottom arrow round button.png"
+        }
+      },
+      {
+        "file": "assets/Left arrow round button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Left arrow round button.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Shaded Light/290ecac11924a29fd4ddb1fc03e7d15edb49ea65d337260dbe7d244e6bbbcabd_Left arrow round button.png",
+          "name": "Left arrow round button.png"
+        }
+      },
+      {
+        "file": "assets/Right arrow round button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right arrow round button.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Light/cff093f94de97ac7085b7fcd1ac1e7811ec7d5e5eb0401174ba6bd95e1d5777c_Right arrow round button.png",
+          "name": "Right arrow round button.png"
+        }
+      },
+      {
+        "file": "correct-6033.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "correct-6033.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "scary-horror-creepy-music-371663.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "scary-horror-creepy-music-371663.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "pxArt__1_-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pxArt__1_-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pxArt (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pxArt (3).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pxArt__3_-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pxArt__3_-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pxArt__1_-removebg-preview2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pxArt__1_-removebg-preview2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "new_key-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "new_key-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pxArt__1_-removebg-preview3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pxArt__1_-removebg-preview3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pxArt__3_-removebg-preview2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pxArt__3_-removebg-preview2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "candle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "candle.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "scary-horror-creepy-music-371662.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "scary-horror-creepy-music-371662.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "scary-horror-creepy-music-371661.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "scary-horror-creepy-music-371661.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "red-blood-stained-satanic-demon-altar-isolated-d-rendered-illustration-transparent-png-available-red-blood-stained-satanic-demon-326172335-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "red-blood-stained-satanic-demon-altar-isolated-d-rendered-illustration-transparent-png-available-red-blood-stained-satanic-demon-326172335-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "scary-horror-creepy-music-371660.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "scary-horror-creepy-music-371660.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "scary-horror-creepy-music-371659.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "scary-horror-creepy-music-371659.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "scary-horror-creepy-music-371658.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "scary-horror-creepy-music-371658.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "correct-6032.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "correct-6032.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "correct-6031.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "correct-6031.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "correct-6030.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "correct-6030.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "scary-horror-creepy-music-371657.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "scary-horror-creepy-music-371657.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "correct-6029.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "correct-6029.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "scary-horror-creepy-music-371656.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "scary-horror-creepy-music-371656.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "correct-6028.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "correct-6028.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "correct-6027.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "correct-6027.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "correct-6026.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "correct-6026.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "scary-horror-creepy-music-371655.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "scary-horror-creepy-music-371655.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "WoodenChest.gif",
+        "kind": "image",
+        "metadata": "",
+        "name": "WoodenChest.gif",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Wooden Chest 1 - frame2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wooden Chest 1 - frame2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Wooden Chest 1 - frame3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wooden Chest 1 - frame3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Wooden Chest 1 - frame  03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wooden Chest 1 - frame  03.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Wooden Chest 1 - frame5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wooden Chest 1 - frame5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chest-opening-87569.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "chest-opening-87569.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "key-46681.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "key-46681.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "chest-opening-87568.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "chest-opening-87568.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "key-drop-89396.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "key-drop-89396.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "chest-slam-85122.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "chest-slam-85122.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "chest-slam-85121.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "chest-slam-85121.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "chest-slam-85120.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "chest-slam-85120.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "mixkit-gasping-zombie-963.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "mixkit-gasping-zombie-963.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "mixkit-gasping-zombie-963.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "mixkit-gasping-zombie-963.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Kenney Future Narrow.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "078f2c53113817df13b013f3ef602c397bc7ae7305b8bb97b191688940cf3bd2_Kenney Future Narrow.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/078f2c53113817df13b013f3ef602c397bc7ae7305b8bb97b191688940cf3bd2_Kenney Future Narrow.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Kenney Future Narrow.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\Kenney Future Narrow.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "Butcherman-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Butcherman-Regular.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "scary-horror-creepy-music-371654.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "scary-horror-creepy-music-371654.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "mixkit-gasping-zombie-962.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "mixkit-gasping-zombie-962.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "mixkit-gasping-zombie-961.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "mixkit-gasping-zombie-961.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "candle.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "candle.webp",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Made_with_insMind-skull-candle-human-halloween-symbol-600nw-2275635029-removebg-preview-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Made_with_insMind-skull-candle-human-halloween-symbol-600nw-2275635029-removebg-preview-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "mixkit-gasping-zombie-960.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "mixkit-gasping-zombie-960.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sofa_set_3-removebg-preview (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sofa_set_3-removebg-preview (3).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "sofa_set_1-removebg-preview (1)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sofa_set_1-removebg-preview (1)2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "sofa_set_3-removebg-preview (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sofa_set_3-removebg-preview (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 16.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "cat 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cat 3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi17.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi18.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 45.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 44.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 41 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 41 (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 34.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 32.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 33.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 34 (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 34 (2).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 35.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 36 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 36 (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 37 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 37 (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 38 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 38 (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi 21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi 21.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi 22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi 22.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi 23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi 23.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi 24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi 24.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi 25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi 25.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi26.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi 26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi 26.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi 27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi 27.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi 28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi 28.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Generic Character 2_Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 2_Down_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/0f612eed16c7647388f28774e5a3942f10b728e2b81fd173e327957f4efe9ec4_Generic Character 2_Down_1.png",
+          "name": "Generic Character 2_Down_1.png"
+        }
+      },
+      {
+        "file": "assets/Generic Character 2_Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 2_Down_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/9a5a326c20acc7fd219461854c91e0ff4d31ec6792036731b759db9c97322eca_Generic Character 2_Down_2.png",
+          "name": "Generic Character 2_Down_2.png"
+        }
+      },
+      {
+        "file": "assets/Generic Character 2_Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 2_Down_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/e28e7569c725b3887c79d4788da13c34819756b201c26fa62d80c8c930cf5936_Generic Character 2_Down_3.png",
+          "name": "Generic Character 2_Down_3.png"
+        }
+      },
+      {
+        "file": "assets/Generic Character 2_Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 2_Left_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/f31eead3f33182dda5d39073d6457a439f1ef5f65042a247326bcf8bd894d22e_Generic Character 2_Left_1.png",
+          "name": "Generic Character 2_Left_1.png"
+        }
+      },
+      {
+        "file": "assets/Generic Character 2_Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 2_Left_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/d25a199b35d8f485332bb970f8668bc8a0f0b1a82396253f995aad937a7ffc4b_Generic Character 2_Left_2.png",
+          "name": "Generic Character 2_Left_2.png"
+        }
+      },
+      {
+        "file": "assets/Generic Character 2_Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 2_Left_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/e118e49f540892f3fc24a3998687fcecf59b50f7539633b301b1fbbd7053fbe0_Generic Character 2_Left_3.png",
+          "name": "Generic Character 2_Left_3.png"
+        }
+      },
+      {
+        "file": "assets/Generic Character 2_Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 2_Right_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/047f70975cc74b1a5bb07782246f200ec3c38370454198421e810927d91c013b_Generic Character 2_Right_1.png",
+          "name": "Generic Character 2_Right_1.png"
+        }
+      },
+      {
+        "file": "assets/Generic Character 2_Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 2_Right_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/38ec5dcc8784e85c3e2bf029b593001a9af7059594a931c394a4114fe896eb64_Generic Character 2_Right_2.png",
+          "name": "Generic Character 2_Right_2.png"
+        }
+      },
+      {
+        "file": "assets/Generic Character 2_Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 2_Right_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/9cffad727e0b7955ef90b15b85435e92918b6cdcb295c1bc515e3c9080eb513e_Generic Character 2_Right_3.png",
+          "name": "Generic Character 2_Right_3.png"
+        }
+      },
+      {
+        "file": "assets/Generic Character 2_Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 2_Up_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/f3c1eb0a90433a08984745e4e53c0bee850699c248ba12e21b697c33472db29c_Generic Character 2_Up_1.png",
+          "name": "Generic Character 2_Up_1.png"
+        }
+      },
+      {
+        "file": "assets/Generic Character 2_Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 2_Up_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/857786b04134793bba7cb6cc40475d955918a9ac24240da57cbf854609b0988e_Generic Character 2_Up_2.png",
+          "name": "Generic Character 2_Up_2.png"
+        }
+      },
+      {
+        "file": "assets/Generic Character 2_Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 2_Up_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/98b7dd01c3af26f070916fa07d946761b4447ff4d5101d4a814110566d749f71_Generic Character 2_Up_3.png",
+          "name": "Generic Character 2_Up_3.png"
+        }
+      },
+      {
+        "file": "WhatsApp Image 2025-09-22 at 23.48.14.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "WhatsApp Image 2025-09-22 at 23.48.14.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "batman-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "batman-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Talking cat.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Talking cat.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bookshelf (1) (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bookshelf (1) (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "mixkit-gasping-zombie-962.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "mixkit-gasping-zombie-962.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "pixel-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "mixkit-gasping-zombie-959.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "mixkit-gasping-zombie-959.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "mixkit-gasping-zombie-958.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "mixkit-gasping-zombie-958.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "TV_pixel-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TV_pixel-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "curtain.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "curtain.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "WhatsApp Image 2025-09-22 at 23.56.58.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "WhatsApp Image 2025-09-22 at 23.56.58.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "istockphoto-1181603493-1024x1024.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "istockphoto-1181603493-1024x1024.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/VT323-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Female Character 12_Walking Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 12_Walking Down_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/29c4570b17b162931c91a254c5aaeeff4db6dd19c6b655907c95f583736098bb_Female Character 12_Walking Down_1.png",
+          "name": "Female Character 12_Walking Down_1.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 12_Walking Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 12_Walking Down_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/253dc334efb4752fd6e0b460df80ce7c120cc7b93c2471d9e3c0406998f1efe5_Female Character 12_Walking Down_2.png",
+          "name": "Female Character 12_Walking Down_2.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 12_Walking Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 12_Walking Down_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/3a019cfb7d3a43a5fe784e1ff0e6684e7afcfc9e14fcf389f44a860828012143_Female Character 12_Walking Down_3.png",
+          "name": "Female Character 12_Walking Down_3.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 12_Walking Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 12_Walking Left_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/5cac03d6ebd797bfc73e4ddff4c7f0361d112ca4e5aa10c3b203943986334d1a_Female Character 12_Walking Left_1.png",
+          "name": "Female Character 12_Walking Left_1.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 12_Walking Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 12_Walking Left_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/88f516e272613987199eeadd4f80a3d1ae33e6d589c61554c9f383055cc224a7_Female Character 12_Walking Left_2.png",
+          "name": "Female Character 12_Walking Left_2.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 12_Walking Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 12_Walking Left_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/7c2a920b5abbbe4cd7f343df15ef951799cbf5155a9579e48b4c0fa13406ac5f_Female Character 12_Walking Left_3.png",
+          "name": "Female Character 12_Walking Left_3.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 12_Walking Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 12_Walking Right_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/add0a67d6e7b5701ad360dcf1a4345b5a02e998defbe8e886c3135343d5b466b_Female Character 12_Walking Right_1.png",
+          "name": "Female Character 12_Walking Right_1.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 12_Walking Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 12_Walking Right_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/a602a670a501fa7773f9f5865d6b17540e4ad4c6720920832d62e14a4ac86e11_Female Character 12_Walking Right_2.png",
+          "name": "Female Character 12_Walking Right_2.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 12_Walking Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 12_Walking Right_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/3cf7fc2441ac8296517ea9eeb2254b836d780580a34a1841fb734bfb879f2954_Female Character 12_Walking Right_3.png",
+          "name": "Female Character 12_Walking Right_3.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 12_Walking Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 12_Walking Up_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/af4532f782f073c3079c3997fc8678e3342d81461150357e0769683b8606f58a_Female Character 12_Walking Up_1.png",
+          "name": "Female Character 12_Walking Up_1.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 12_Walking Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 12_Walking Up_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/49d54ece615bf154d01424222ab0af90107422f6d5e3d6a07e612048d8588703_Female Character 12_Walking Up_2.png",
+          "name": "Female Character 12_Walking Up_2.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 12_Walking Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 12_Walking Up_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/9889c3d33dd1c2351bc964832fe330306bc2f564cc15646b96d5500194424c90_Female Character 12_Walking Up_3.png",
+          "name": "Female Character 12_Walking Up_3.png"
+        }
+      },
+      {
+        "file": "lumi 31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 31.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 34 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 34 (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 41.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 46.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "table_-removebg-preview2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "table_-removebg-preview2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 16 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 16 (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 18.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 17.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 15.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 14.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 13 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 13 (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi13.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi15.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 13 (1)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 13 (1)2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 16 (1)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 16 (1)2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi19.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi16.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "candle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "candle2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Roboto-Italic.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "c807beaa344a3d66eee7fb031c27c03f4b43a24d758cb76899434a26e9dae5b9_Roboto-Italic.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/c807beaa344a3d66eee7fb031c27c03f4b43a24d758cb76899434a26e9dae5b9_Roboto-Italic.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/MPLUS1p-ExtraBold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "9bf5e100819cd6d0fd92481cdb1282f88a48e49dfb3709df8015e0cd37de8fb4_MPLUS1p-ExtraBold.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Google Fonts/Japanese/9bf5e100819cd6d0fd92481cdb1282f88a48e49dfb3709df8015e0cd37de8fb4_MPLUS1p-ExtraBold.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "cat 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cat 1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "health.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "health.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "health2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "health2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "HauntingEleanor-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "HauntingEleanor-Regular.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/GloriaHallelujah-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "5f8b00629b1f7b8fbe4181d3c8296c76117b0d7f7ad534d45470070c10ba6e09_GloriaHallelujah-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/5f8b00629b1f7b8fbe4181d3c8296c76117b0d7f7ad534d45470070c10ba6e09_GloriaHallelujah-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "vill 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vill 1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pic_for_overlay-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pic_for_overlay-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi23.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi33.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi45.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi46.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Bookshelf final2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bookshelf final2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "table_for_living_room-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "table_for_living_room-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "blackoverlay",
+        "kind": "image",
+        "metadata": "",
+        "name": "blackoverlay",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "blackoverlay2",
+        "kind": "image",
+        "metadata": "",
+        "name": "blackoverlay2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "scarry.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "scarry.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "scarry-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "scarry-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Game (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Restart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Restart.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Next.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Next.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Close (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Close (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rocking_chair_latest-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rocking_chair_latest-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "pxArt (4).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pxArt (4).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tileset2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tileset2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tileset3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tileset3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "piano pixel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "piano pixel.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "teddy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "teddy.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "window2 pixel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "window2 pixel.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "vill 41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vill 41.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "dialogue board.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dialogue board.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "tent.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tent.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "ball.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ball.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rocking chair.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rocking chair.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "H_pixel__1_-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "H_pixel__1_-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "E pixel (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "E pixel (2).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "L_pixel__3_-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "L_pixel__3_-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "P_pixel__4_-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "P_pixel__4_-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "music box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "music box.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "opened music box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "opened music box.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "green eye pixel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "green eye pixel.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "red eye pixel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "red eye pixel.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "blood2 pixel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "blood2 pixel.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bloody scars.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bloody scars.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "hand stain pixel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hand stain pixel.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "web1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "web1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "web2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "web2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime 1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime 2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime 3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime 4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime 5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime 6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime 7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime 7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime 8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime 8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../monster/slime 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\monster\\slime 1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slime3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 13.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi20.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi21.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi22.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi24.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi25.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi27.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi28.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi29.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi30.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chwe lumi31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chwe lumi31.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi32.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi34.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi35.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi36.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi37.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi38.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 36.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 37.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 38.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 42.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 43.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi47.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi47.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi48.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi49.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi49.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 47.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 47.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lumi 48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lumi 48.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Animation/Walking ahead/lumi 11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Animation\\Walking ahead\\lumi 11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Instruction.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Instruction.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "darkness.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "darkness.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "scary-horror-music-351315.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "scary-horror-music-351315.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Note A.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Note A.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Note B.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Note B.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Note B2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Note B2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Note C.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Note C.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Note D.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Note D.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "spooky-wizard-laugh-01-253266.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "spooky-wizard-laugh-01-253266.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "spooky-wizard-laugh-01-253265.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "spooky-wizard-laugh-01-253265.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "jumpscare-94984.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "jumpscare-94984.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Full Note.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Full Note.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Full Note2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Full Note2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "WhatsApp Image 2025-09-27 at 1.34.27 PM.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "WhatsApp Image 2025-09-27 at 1.34.27 PM.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "WhatsApp_Image_2025-09-27_at_12.19.46-removebg-preview (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WhatsApp_Image_2025-09-27_at_12.19.46-removebg-preview (1).png",
+        "smoothed": false,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "PuzzleScore",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "ItemPlaced",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "DollPlaced",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "CandlePlaced",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "BookPlaced",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "KeyPlaced",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "PlacedCorrect",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "PlayerScore",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "CurrentTextHint",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "PlayerLives",
+      "type": "number",
+      "value": 3
+    },
+    {
+      "name": "GlobalMistake",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Placecount",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "GlobalScore",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "GlobalResult",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "WrongAttempt",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/puzzle-2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game-over"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/puzzle-1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/main-menu"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/ui"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/untitled-external-events2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/untitled-external-events"
+    }
+  ],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritemultitouchjoystick"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/curvedmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/sway"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/cancellabledraggable"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/health"
+    }
+  ],
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/ui-layout"
+    }
+  ]
+}
